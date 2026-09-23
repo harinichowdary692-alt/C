@@ -8,7 +8,7 @@ int main () {
         printf("INVALID");
     }
     else {
-    char c = tolower(a);
+    char c = tolower(a); // check this out
     if (c == 'a' || c=='e' || c == 'i' || c=='o' || c=='u'){
         printf("VOWEL");
     }
